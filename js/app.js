@@ -1,1 +1,3 @@
-alert('Hello world');
+export const pascalToSnake = (entry) => {
+    return entry;
+}
