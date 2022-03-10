@@ -14,7 +14,7 @@ describe('pascalToSnake', function(){
     assert.equal(pascalToSnake('TestController'),'test_controller' )
   });
   it('should return movie_and_book', function(){
-    assert.equal(pascalToSnake('MovieAndBook'),'movie_and_book' )
+    assert.equal(pascalToSnake('MovieAndBook'),'movie_and_book')
   });
   it('should return app7_test', function(){
     assert.equal(pascalToSnake('App7_test'),'app7_test' )
