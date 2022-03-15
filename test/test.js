@@ -26,6 +26,6 @@ describe('pascalToSnake', function(){
     assert.equal(pascalToSnake('play-movie'),'play-movie' )
   });
   it('should return 1', function(){
-    assert.equal(pascalToSnake(1),'1' )
+    assert.strictEqual(pascalToSnake(1),'1' )
   });
 });
