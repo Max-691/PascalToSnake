@@ -21,9 +21,18 @@ export const pascalToSnake = (entry) => {
             result += element;
         }
     }
-    
+
     return result;
 }
 
-//result => the result in a string
-//element =>    
+// 2. movie_and_book :
+
+
+    let result = "";
+    if (entry.includes) {
+        
+    }
+
+
+
+

@@ -11,7 +11,7 @@ describe('Array', function () {
 
 describe('pascalToSnake', function(){
   it('should return test_controller', function(){
-    assert.equal(pascalToSnake('TestController'),'test_controller' )
+    assert.equal(pascalToSnake('TestController'),'test_controller')
   });
   it('should return movie_and_book', function(){
     assert.equal(pascalToSnake('MovieAndBook'),'movie_and_book')
